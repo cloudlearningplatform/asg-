@@ -5,4 +5,3 @@ Create an Auto Scaling Group (ASG): Use an ASG to manage the instances, allowing
 Update the Launch Template/Configuration: Modify the AMI in the launch template or launch configuration.
 Rolling Update: Use Terraform to incrementally replace instances by changing the configuration in the ASG, ensuring that the application remains available throughout the process.
 
-updating  the AMI using terraform without stopping the application 
